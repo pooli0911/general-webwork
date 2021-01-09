@@ -1,0 +1,183 @@
+.block{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	outline: 1px solid #596580;
+	display: inline-block;
+}
+.man{
+	width: 50px;
+	height: 50px;
+	background-color: #b38fa5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.man1{
+	animation-name: ani1;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ani1{
+	0%{
+		left: -100px;
+	}
+	50%{
+		left: 100px;
+	}
+	100%{
+		left: -100px;
+	}
+}
+.man2{
+	animation-name: ani2;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes ani2{
+	0%{
+        left: -100px;
+        top: -100px;
+    }
+    25%{
+        left: 100px;
+        top: -100px;
+    }
+    50%{
+        left: 100px;
+        top: 100px;
+    }
+    75%{
+        left: -100px;
+        top: 100px;
+    }
+    100%{
+        left: -100px;
+        top: -100px;
+    }
+}
+.man3{
+    animation-name: ani3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes ani3{
+	0%{
+        left: -100px;
+        top: -100px;
+        transform: scale(1);
+    }
+    25%{
+        left: 100px;
+        top: -100px;
+        transform: scale(1.5);
+    }
+    50%{
+        left: 100px;
+        top: 100px;
+        transform: scale(2);
+    }
+    75%{
+        left: -100px;
+        top: 100px;
+        transform: scale(1.5);
+    }
+    100%{
+        left: -100px;
+        top: -100px;
+        transform: scale(1);
+    }
+}
+.man4{
+    animation-name: ani3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.76,-0.64,.4,1.48);
+}
+.man5{
+    animation-name: ani3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-timing-function: steps(2);
+}
+.man6{
+	animation: ani6;
+	width: 162px;
+	height: 144px;
+	background-image: url(../img/L10-monkey.png);
+	background-position: -162px;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: step-start;
+}
+@keyframes ani6{
+    0%{background-position: -1px -1px;}
+    12.5%{background-position: -165px -1px;}
+    25%{background-position: -329px -1px;}
+    37.5%{background-position: -1px -147px;}
+    50%{background-position: -165px -147px;}
+    62.5%{background-position: -329px -147px;}
+    75%{background-position: -1px -293px;}
+    87.5%{background-position: -165px -293px;}
+    100%{background-position: -1px -1px;}
+}
+
+.game{
+	position: relative;
+}
+.tree{
+  position: absolute;
+  width: 825px;
+  height: 480px;
+  background-image: url(../img/L10-tree.png);
+  animation-name: treeAni;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.monkey{
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  z-index: 1;
+}
+@keyframes treeAni {
+  0%{
+      background-position: 0px 0px;
+  }
+  100%{
+      background-position: 825px 0%;
+  }
+}
+.dj{
+	position: absolute;
+	top: 160px;
+	left: 400px;
+	z-index: 1;
+}
+.da{
+	animation: anida;
+	width: 400px;
+	height: 287px;
+	background-image: url(../img/L10-GA.png);
+	background-position: 0 -287px;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: step-start;
+}
+@keyframes anida{
+    0%{}
+    12.5%{background-position:  0 -287px;}
+    25%{background-position: 0 -574px;}
+    37.5%{background-position: 0 -861px;}
+    50%{background-position: 0 -1148px;}
+    62.5%{background-position: 0 -1435px;}
+    75%{background-position: 0 -1722px;}
+    87.5%{background-position: 0 -2009px;}
+    100%{background-position: 0 -2296px;}
+}

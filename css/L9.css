@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:700');
+
+.button{
+	position: absolute;
+	transition: all 0.5s;
+	user-select: none;
+	font-family: 'Amatic SC', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	color: #d05a6e;
+	background-color: #f2a0a1;
+	border-radius: 20px;
+	border: 0px solid #ffd5b3;
+	line-height: 47px;
+	transform: translate(-50%, -50%);
+	margin-left: 90px;
+	margin-top: 40px;
+}
+.button:hover{
+	font-size: 40px;
+	text-align: center;
+	line-height: 55px;
+	width: 180px;
+	height: 60px;
+	background-color: #e68a8d;
+	color: #f8c3cd;
+	border: 5px solid #ffd5b3;
+}
+.box{
+	margin-left: 375px;
+	margin-top: 80px;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	background-color: #000;
+	overflow: hidden;
+}
+.box img{
+	opacity: 0.5;
+	transition: all 0.5s;
+	position: absolute;
+	height: 100%;
+	transform: translate(-105px,0);
+}
+.box .title{
+	transition-delay: 0.3s;
+	transition: all 0.5s;
+	color: white; 
+	text-shadow: gray 0.1em 0.1em 0.2em;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 30px;
+}
+.box .price{
+	transition: all 0.5s;
+	transition-delay: 0.5s;
+	position: absolute;
+	color: white; 
+	text-shadow: gray 0.1em 0.1em 0.2em;
+	right: 0;
+	bottom: 0;
+	margin-right: 20px;
+	margin-bottom: -100px;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 50px;
+}
+.box:hover img{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.box:hover .title{
+	margin-right: 20px;
+	margin-bottom: 80px;
+}
+.box:hover .price{
+	margin-right: 20px;
+	margin-bottom: 10px;
+}

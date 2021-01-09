@@ -1,0 +1,275 @@
+.picture{
+  outline: 1px solid #fff;
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+.cup{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background-color: #D7C4BB;
+  border-radius: 0 0 30px 30px;
+  margin-left: 30px;
+}
+.handle{
+  width: 100px;
+  height: 100px;
+  background-color: #D7C4BB;
+  margin-left: 180px;
+  margin-top: 10px;
+  border-radius: 0 30px 30px 0;
+  position: absolute;
+}
+.handle2{
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 0 20px 20px 0;
+  margin-top: 15px;
+}
+.plate{
+  position: absolute;
+  width: 250px;
+  height: 10px;
+  background-color: #d7c4bb;
+  margin-left: 5px;
+  margin-top: 150px;
+  border-radius: 0 0 100px 100px;
+}
+.plate2{
+  position: absolute;
+  width: 200px;
+  height: 10px;
+  background-color: #d7c4bb;
+  margin-left: 30px;
+  margin-top: 160px;
+  border-radius: 0 0 100px 100px;
+}
+.coffee1{
+  font-family:Microsoft JhengHei;
+  color:#b9887d;
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 110px;
+  background-color: #543d38;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  line-height:30px;
+}
+.name{
+  position: absolute;
+  color:#64363c;
+  font-family:Microsoft JhengHei;
+  margin-top: 170px;
+  width: 260px;
+  text-align: center;
+}
+.milk{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 75px;
+  background-color: #fce8d9;
+  text-align: center;
+  color:#64363c;
+  line-height:30px;
+}
+.water{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 95px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: #e8fcff;
+  text-align: center;
+  color:#86a1d1;
+  line-height:100px;
+}
+.milk2{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 55px;
+  background-color: #f2f2f2;
+  text-align: center;
+  color:#a6a6a6;
+  line-height:50px;
+}
+.milk3{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 45px;
+  background-color: #f2f2f2;
+  text-align: center;
+  color:#a6a6a6;
+  line-height:60px;
+}
+.milk4{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #fce8d9;
+  text-align: center;
+  color:#64363c;
+  line-height:30px;
+}
+.cream{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 75px;
+  background-color:#ffdcb3;
+  text-align: center;
+  color:#c47f62;
+  line-height:30px;
+}
+.half{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 65px;
+  background-color:#ffdcb3;
+  text-align: center;
+  color:#c47f62;
+  line-height:40px;
+}
+.milk5{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: #fce8d9;
+  text-align: center;
+  color:#64363c;
+  line-height:40px;
+}
+.milk6{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 65px;
+  background-color: #f2f2f2;
+  text-align: center;
+  color:#a6a6a6;
+  line-height:40px; 
+}
+.milk7{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 50px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #fce8d9;
+  text-align: center;
+  color:#64363c;
+  line-height:50px;
+}
+.chocolate{
+    font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 75px;
+  background-color:#a3847e;
+  text-align: center;
+  color:#ebd7d3;
+  line-height:30px;
+}
+.milk8{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: #f2f2f2;
+  text-align: center;
+  color:#a6a6a6;
+  line-height:30px; 
+}
+.cream3{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 5px;
+  background-color: #ffdcb3;
+  text-align: center;
+  color:#c47f62;
+  line-height:30px;
+}
+.milk9{
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 60px;
+  margin-left: 10px;
+  margin-top: 45px;
+  background-color: #fce8d9;
+  text-align: center;
+  color:#64363c;
+  line-height:60px;
+}
+.sugar{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 10px;
+  background-color: #b06c4f;
+  text-align: center;
+  color:#ffcfba;
+  line-height:33px;
+}
+.whiskey{
+    font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 75px;
+  background-color:#d6a25e;
+  text-align: center;
+  color:#ebd7d3;
+  line-height:30px;
+}
+.cream4{
+  position: absolute;
+  font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color: #ffdcb3;
+  text-align: center;
+  color:#c47f62;
+  line-height:30px; 
+}
+.chocolate{
+    font-family:Microsoft JhengHei;
+  width: 180px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 75px;
+  background-color:#a3847e;
+  text-align: center;
+  color:#ebd7d3;
+  line-height:30px;
+}

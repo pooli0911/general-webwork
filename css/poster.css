@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Roboto+Mono:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap");
+/* font-family: 'Baloo Thambi 2','Major Mono Display'; */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace; */
+/*font-family: 'Philosopher', sans-serif; */
+.poster{
+  position: absolute;
+  outline: 1px solid #000;
+  width: 450px;
+  height: 695px;
+  overflow: hidden;
+  margin-left: 30%;
+}
+
+.img{
+  position: absolute;
+}
+
+.red1{
+  position: absolute;
+  width: 423px;
+  height: 85px;
+  background-color:#cb4042;
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 145px;
+}
+.red2{
+  position: absolute;
+  width: 610px;
+  height: 85px;
+  background-color: #ab3b3a;
+  margin-top: 100px; 
+  transform-origin: left top;
+  transform: rotate(45deg);
+  margin-top: 265px;
+}
+.black{
+  position: absolute;
+  background-color: #210e05;
+  width: 800px;
+  height: 125px;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  margin-top: 555px;
+}
+.text1{
+  position: absolute;
+  right: 0;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 40px;
+  margin-top: 8px;
+  color: white;
+  font-weight: bold;
+}
+.text2{
+  position: absolute;
+  font-family:'Major Mono Display';
+  color: white;
+  font-size: 60px;
+  margin-left: 300px;
+  font-weight: bold;
+}
+.text3{
+   position: absolute;
+  font-family:'Major Mono Display';
+  color: white;
+  font-size: 60px;
+  margin-left: 420px;
+  margin-top: 55px;
+}
+.inwar{
+  position: absolute;
+  right: 0;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+  transform-origin: right top;
+  transform: rotate(-90deg);
+  font-weight: 700;
+  font-size: 25px;
+  margin-right: 309px;
+  margin-top: 7px;
+  color: black;
+}
+.letters{
+  position: absolute;
+  font-family: 'Roboto Mono', monospace; 
+  color: white;
+  right: 0;
+  text-align: right;
+  margin-right: 450px;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.whitetext{
+  position: absolute;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  margin-top: 70px;
+}
+.alpha{
+  position: absolute;
+  margin-top: 250px;
+  font-size: 24px;
+  line-height: 1;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+}
+.whtext4{
+  font-weight: bold;
+}
+.whtext1{
+  position: absolute;
+  transform-origin: left top;
+  margin-top: 440px;
+  left: -48px;
+  width: 250px;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+  font-size: 24px;
+}
+.whtext2{
+  position: absolute;
+  transform-origin: left top;
+  margin-top: 470px;
+  margin-left: 68px;
+  width: 200px;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+}
+.whtext3{
+  position: absolute;
+  transform-origin: left top;
+  margin-top: 470px;
+  margin-left: 90px;
+  width: 200px;
+  font-weight: bold;
+  font-family: 'Baloo Thambi 2','Major Mono Display';
+}
+.barcode{
+  position: absolute;
+  height: 200px;
+  width: 85px;
+  font-size: 0;
+  transform-origin: left top;
+  transform: rotate(-45deg);
+  left: 0;
+  margin-left: 240px;
+  margin-top: 500px;
+}
+.lineArea{
+  position: relative;
+/*   outline: 1px solid red; */
+  height: 100%;
+  width: 10%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: initial;
+}
+.num{
+  position: absolute;
+  bottom: 0;
+  color: #9F353A;
+  font-family: 'Philosopher', sans-serif;
+}
+.line1{
+  position: absolute;
+  bottom: 20px;
+  width: 60%;
+  height: 90%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line2{
+  position: absolute;
+  bottom: 20px;
+  width: 40%;
+  height: 50%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line3{
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+  height: 75%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line4{
+  position: absolute;
+  bottom: 20px;
+  width: 30%;
+  height: 40%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line5{
+  position: absolute;
+  bottom: 20px;
+  width: 30%;
+  height: 60%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line6{
+  position: absolute;
+  bottom: 20px;
+  width: 45%;
+  height: 80%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line7{
+  position: absolute;
+  bottom: 20px;
+  width: 20%;
+  height: 65%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line8{
+  position: absolute;
+  bottom: 20px;
+  width: 30%;
+  height: 70%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line9{
+  position: absolute;
+  bottom: 20px;
+  width: 50%;
+  height: 40%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.line0{
+  position: absolute;
+  bottom: 20px;
+  width: 25%;
+  height: 85%;
+  background-color: #cb4042;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

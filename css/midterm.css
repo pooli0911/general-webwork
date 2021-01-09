@@ -1,0 +1,571 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1280px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png");
+}
+.midterm .title h1 {
+  text-align: center;
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+/*   margin: auto; */
+}
+aside {
+  text-align: center;;
+  padding: 5px 0;
+  border: solid;
+  border-width: 2px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1.5rem 0;
+}
+aside a {
+  font-family: "SimSun", serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1c1f33;
+  transition: all 0.5s;
+  position: relative;
+}
+
+aside a span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+aside a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  background-color: rgb(158, 158, 158, 0.3);
+  transition: all 0.4s;
+  transform: scale(1, 0.5);
+}
+aside a:hover::before {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+aside p {
+  position: absolute;
+}
+.btn1 {
+  margin-left: 25px;
+}
+.area {
+  max-width: 1280px;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 100vh;
+}
+.new {
+  width: 500px;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.new .title {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-family: "Noto Serif TC", serif;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.new .title:hover {
+  transition: 0.5s;
+  color: #1c1f33;
+}
+.new p {
+  font-family: "SimSun", serif;
+  font-size: normal;
+  width: 330px;
+  margin-top: 20px;
+}
+.new img {
+  position: absolute;
+  margin-top: -135px;
+  margin-left: 370px;
+  box-shadow: 3px 3px 12px gray;
+}
+.robot {
+  margin-left: 50px;
+  margin-top: 90px;
+}
+img {
+  box-shadow: 3px 3px 12px gray;
+}
+.robot .title {
+  text-decoration: none;
+  color: #1c1f33;
+  font-family: "Noto Serif TC", serif;
+  font-weight: bold;
+  font-size: 24px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 0px;
+  color: #9e9e9e;
+  transition: 0.5s;
+}
+.robot a:hover {
+  transition: 0.5s;
+  color: #1c1f33;
+}
+.robot p {
+  font-family: "SimSun", serif;
+  font-size: normal;
+  width: 360px;
+  margin-left: 326px;
+  margin-top: -150px;
+}
+.line {
+  position: absolute;
+  width: 2px;
+  height: 500px;
+  background-color: #1c1f33;
+  margin-top: -485px;
+  margin-left: 750px;
+}
+.right {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: 800px;
+  margin-top: -500px;
+}
+.video a {
+  text-decoration: none;
+  color: #9e9e9e;
+  font-family: "Noto Serif TC", serif;
+  font-weight: bold;
+  font-size: 24px;
+  transition: 0.5s;
+}
+.video a:hover {
+  color: #1c1d33;
+  transition: 0.5s;
+}
+.video p {
+  font-family: "SimSun", serif;
+  font-size: normal;
+  width: 375px;
+  margin-top: 20px;
+}
+
+/* area1 */
+.area1 {
+  height: 100vh;
+}
+.area2 {
+  min-height: 100vh;
+}
+.area3 {
+  display: flex;
+  height: 60vh;
+}
+.area4 {
+  height: 100vh;
+}
+.area5 {
+  height: 50vh;
+}
+.end {
+  height: 30vh;
+}
+.area1 h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  padding-top: 20px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+}
+.area1 p {
+  width: 90%;
+  font-family: "SimSun", serif;
+  font-size: 18px;
+  padding-left: 635px;
+  margin-top: -85px;
+  font-style: italic;
+}
+.compare {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+.gong h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.compare ul {
+  width: 360px;
+  font-size: 16px;
+  font-family: "SimSun", serif;
+  line-height: 1.8em;
+}
+.compare img {
+  width: 25%;
+  height: 25%;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.taiwan h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+.line2 {
+  margin-top: 50px;
+  width: 1280px;
+  height: 1px;
+  background-color: #1c1f33;
+  margin: center;
+}
+.line3 {
+  margin-top: 260px;
+  width: 1280px;
+  height: 1px;
+  background-color: #1c1f33;
+  margin: center;
+}
+.top {
+  position: fixed;
+  background-color: rgb(48, 48, 48, 0.5);
+  border-radius: 5px 0 0 5px;
+  right: 0;
+  bottom: 150px;
+  color: #d1d1d1;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Arial", serif;
+  transition: 0.5s;
+}
+.top:hover {
+  color: #ededed;
+  transition: 0.5s;
+}
+.fa {
+  color: #ededed;
+}
+
+.area2 h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+  margin-top: -10px;
+}
+.area2 img {
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+.phone {
+  display: flex;
+}
+.phone h1 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 300px;
+  margin-top: -200px;
+}
+.phone p {
+  width: 800px;
+  font-size: 16px;
+  font-family: "SimSun", serif;
+  line-height: 1.8em;
+  margin-left: -1000px;
+  margin-top: -145px;
+}
+
+.mb {
+  display: flex;
+}
+.mbimg {
+  position: absolute;
+  margin-left: 940px;
+  margin-top: 60px;
+}
+.mb h1 {
+  width: 900px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 825px;
+}
+.mb p {
+  position: absolute;
+  width: 800px;
+  font-size: 16px;
+  font-family: "SimSun", serif;
+  line-height: 1.8em;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.area3 h1 {
+  position: absolute;
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  padding-top: 20px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+}
+.area3 p {
+  position: absolute;
+  width: 90%;
+  font-family: "SimSun", serif;
+  font-size: 18px;
+  padding-left: 465px;
+  margin-top: 70px;
+  font-style: italic;
+}
+.text1 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-left: 90px;
+}
+.text1 h2 {
+  font-family: "SimSun", serif;
+  position: absolute;
+  width: 500px;
+  font-size: 16px;
+  padding: 0;
+  margin-left: 90px;
+  margin-top: 5px;
+}
+.text2 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 290px;
+  margin-left: -1000px;
+}
+.text2 h2 {
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  width: 500px;
+  position: absolute;
+  padding: 0;
+  margin-left: -1000px;
+  margin-top: 5px;
+}
+.text3 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 440px;
+  margin-left: -1000px;
+}
+.text3 h2 {
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  width: 500px;
+  position: absolute;
+  padding: 0;
+  margin-left: -1000px;
+  margin-top: 5px;
+}
+.text4 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 150px;
+  margin-left: -385px;
+}
+.text4 h2 {
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  width: 500px;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: -385px;
+}
+.text5 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 320px;
+  margin-left: -1000px;
+}
+.text5 h2 {
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  width: 500px;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: -1000px;
+}
+.text6 h3 {
+  width: 1000px;
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-top: 490px;
+  margin-left: -1000px;
+}
+.text6 h2 {
+  font-family: "SimSun", serif;
+  font-size: 16px;
+  padding: 0;
+  margin-top: 5px;
+  margin-left: -1000px;
+}
+.area4 h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  padding-top: 20px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+}
+.area4 p {
+  width: 47%;
+  font-family: "SimSun", serif;
+  font-size: 18px;
+  padding-left: 90px;
+  margin-top: -5px;
+}
+.area4 ul {
+  width: 500px;
+  font-size: 16px;
+  font-family: "SimSun", serif;
+  line-height: 1.8em;
+  padding-left: 120px;
+  padding-top: 15px;
+}
+.area4 img {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.line4 {
+  position: absolute;
+  width: 2px;
+  height: 650px;
+  background-color: #1c1f33;
+  margin-top: -625px;
+  margin-left: 640px;
+}
+.next p {
+  width: 601px;
+}
+.next ul {
+  padding-top: 5px;
+}
+.next {
+  margin-left: 600px;
+  margin-top: -630px;
+}
+.area5 h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  padding-top: 20px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+}
+.area5 p {
+  width: 90%;
+  font-family: "SimSun", serif;
+  font-size: 18px;
+  padding-left: 565px;
+  margin-top: -75px;
+  font-style: italic;
+}
+.different {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.one {
+  width: 350px;
+}
+.one h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.one ul{
+  font-family: "SimSun", serif;
+}
+.two {
+  width: 350px;
+}
+.two h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.two ul{
+  font-family: "SimSun", serif;
+}
+.three {
+  width: 350px;
+}
+.three h1 {
+  font-family: "Noto Serif TC", serif;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 40px;
+}
+.three ul{
+  font-family: "SimSun", serif;
+}
+.end h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 42px;
+  color: #1c1f33;
+  margin-left: 90px;
+  padding-top: 20px;
+  text-shadow: 0.1em 0.1em 0.2em gray;
+}
+.link {
+  font-family: "Noto Serif TC", serif;
+  font-size: 16px;
+  margin-left: 90px;
+}
+.end a {
+  text-decoration: none;
+  color: #9e9e9e;
+  transition: 0.5s;
+}
+.end a:hover {
+  color: #1c1f33;
+  transition: 0.5s;
+}
+.link2 {
+  margin-top: 10px;
+}
+.hamburger-menu img{
+  box-shadow: none;
+}

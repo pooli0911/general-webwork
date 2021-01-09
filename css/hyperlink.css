@@ -1,0 +1,48 @@
+.btn1_{
+  width: 90px;
+  height: 30px;
+  background-color: #fad689;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #eea9a9;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: 'Microsoft YaHei', sans-serif;
+}
+.btn1_:hover{
+  background-color: #ffba84;
+  color: #eb7a77;
+}
+.btn2_{
+  width: 80px;
+  position: fixed;
+  right: 0;
+  bottom: 150px;
+  background-color: #fad689;
+  padding: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #eea9a9;
+  border-radius: 10px 0 0 10px;
+  text-decoration: none;
+}
+.btn2_:hover{
+  background-color: #ffba84;
+  color: #eb7a77;
+}
+.area{
+/*   height: 100vh; */
+  min-height:100vh;
+  font-family: 'Microsoft JhengHei', serif;
+}
+.area1{
+  background-color: #bdc0ba;
+  margin-top: 100vh;
+  margin-top: 10vh;
+  padding: 10px;
+  border-sizing: border-box;
+}
+.area2{
+  background-color: #787d78;
+}

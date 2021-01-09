@@ -1,0 +1,63 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-repeat: no-repeat;
+}
+.bg{
+  background-image: url(https://images.pexels.com/photos/1023953/pexels-photo-1023953.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.area{
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.area1{
+  background-image: url(https://images.pexels.com/photos/590478/pexels-photo-590478.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  padding: 20px;
+  box-sizing: border-box;
+  background-position: center -280px;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  background-color: white;
+}
+.img2{
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  padding: 10px;
+  background-color: white;
+}
+.img3{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: white;
+}
+.area2{
+    background-image: url(https://images.pexels.com/photos/5493270/pexels-photo-5493270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area3{
+    background-image: url(https://images.pexels.com/photos/3787405/pexels-photo-3787405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+.area4{
+   background-image: url(https://images.pexels.com/photos/2235302/pexels-photo-2235302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center -200px;
+}
+.area5{
+    background-image: url(https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-position: center -580px;
+}
+.area6{
+  background-image: url(http://idben.tw-no1.com/ntuewd/images/bear1.png),url(http://idben.tw-no1.com/ntuewd/images/dlg.png),url(https://dsa.ntue.edu.tw/epaper/images/bodybg.gif);
+  background-repeat: no-repeat,no-repeat,repeat;
+  background-size: 170px, 300px, auto ;
+  background-position: right bottom, 70% 70%, left top ;
+}

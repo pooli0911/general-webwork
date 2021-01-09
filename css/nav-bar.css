@@ -1,0 +1,36 @@
+.nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 360px;
+  margin-left: 275px;
+}
+.nav ul{
+  width: 1000px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  text-align: center;
+}
+.nav ul li{
+  width: 100px;
+  width: calc((100% - 30px) / 5);
+  display: inline-block;
+}
+.nav ul li a{
+  text-decoration: none;
+  background-color: #a1bfcf;
+  color: #c8dbde;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-family: "NSimSun",serif;
+}
+.nav ul li a:hover{
+  background-color: #5e7582;
+}
+.area{
+  height: 300vh;
+}

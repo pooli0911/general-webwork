@@ -1,0 +1,32 @@
+ul{ 
+  font-family: "Microsoft JhengHei", Arial, serif;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.title1{
+  font-family: "Microsoft JhengHei", Arial, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #184d7a;
+}
+.title2{
+  font-family: "Microsoft JhengHei", Arial, serif;
+  font-weight: bold;
+  color: #6a497a;
+  margin-left: 150px;
+}
+li{
+  background-color: white;
+}
+li:nth-child(even){
+  background-color: #f7d7ad;
+}
+.ul1{
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: #f7d7ad;
+}
+.breadcrumbs li{
+  background-color: transparent;
+}
