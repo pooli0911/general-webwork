@@ -454,6 +454,9 @@ a:hover, a:active {
     color: #a6a6a6;
     text-decoration: none;
 }
+.breadcrumbs li a:hover{
+    color:#191919;
+}
 .profile{
     padding: 13% 30%;
 }
