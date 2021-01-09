@@ -429,7 +429,7 @@ a:hover, a:active {
 
 .breadcrumbs li {
     position: relative;
-    color: #a6a6a6;
+    color: #191919;
     padding: 0 12px;
 }
 
@@ -451,7 +451,7 @@ a:hover, a:active {
 }
 
 .breadcrumbs li a {
-    color: #191919;
+    color: #a6a6a6;
     text-decoration: none;
 }
 .profile{
